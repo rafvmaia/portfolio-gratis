@@ -51,7 +51,7 @@ ul {
 }
 .navbar{
     background-color: transparent;
-    margin: 40px;
+    padding: 30px;
 }
 
 .nav-link{
@@ -199,7 +199,7 @@ ul {
     justify-content: center;
     align-items: center;
     min-height: 350px;
-    background-color: var(--second-color);
+    background-color: var(--black-color);
 }
 
 .about .container{
@@ -207,6 +207,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .about .container .texto-about{
@@ -216,4 +217,139 @@ ul {
     justify-content: center;
     font-size: 2.8rem;
     text-align: center;
+}
+
+.about h1{
+    font-size: 3.0rem;
+    font-weight: 600;
+    color: var(--white-color); 
+    padding-bottom: 30px;   
+}
+
+.icon-ntd{
+    padding: 20px;
+}
+.ntd{
+    width: 60px;
+}
+
+
+/* services */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: var(--black-color);
+}
+
+.services .col{
+    background-color: var(--main-color);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services i{
+    color: var(--white-color);
+    font-size: 2rem;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h1{
+    color: var(--white-color);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-fam);
+    font-size: 3rem;
+    padding: 30px;
+}
+.services h3{
+    color: var(--white-color);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-fam);
+}
+.services p{
+    color: var(--white-color);
+    text-align: center;
+    font-family: var(--font-fam);
+}
+
+/* Portfolio */
+.portfolio{
+    background-color: var(--black-color);
+    padding: 50px;
+}
+
+.portfolio h1{
+    color: var(--white-color);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-fam);
+    font-size: 3rem; 
+    padding: 30px;
+}
+.portfolio .card-title{
+    color: var(--black-color);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-fam);
+    font-size: 1.8rem;
+}
+.portfolio .card-text{
+    font-family: var(--font-fam);
+    color: var(--black-color);
+    text-align: center;
+}
+
+.btn-portfolio{
+    background-color: var(--black-color);
+    padding: 10px 20px 11px;
+    text-decoration: none;
+    font-family: var(--font-fam);
+    color: var(--white-color);
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.btn-portfolio:hover{
+    background-color: var(--second-color);
+}
+
+.portfolio i{
+    padding-right: 10px;
+}
+
+/* Rodapé */
+
+.rodape{
+
+    color: var(--white-color);
+    background-color: var(--black-color);
+    text-align: center;
+    padding: 20px;
+}
+.rodape .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
