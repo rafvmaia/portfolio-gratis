@@ -1,0 +1,219 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root{
+    --font-fam: "Roboto", serif;
+    --main-color: #12D17D;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --second-color: #0F4C5C;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+/* NAV Section */
+
+.logo{
+    width: 180px;
+}
+
+.btn-quote{
+    background-color: var(--main-color);
+    padding: 20px 30px 21px;
+    text-decoration: none;
+    font-family: var(--font-fam);
+    color: var(--white-color);
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.btn-quote:hover{
+    background-color: var(--second-color);
+}
+.btn-quote i{
+    padding-right: 10px;
+}
+.navbar{
+    background-color: transparent;
+    margin: 40px;
+}
+
+.nav-link{
+    color: var(--white-color);
+    transition: color 0.3s ease-in-out;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: var(--main-color);
+}
+
+.navbar-toggler{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    outline: none;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar.scrolled {
+    background-color: black !important;
+    transition: background-color 0.3s ease; 
+}
+
+.midias-sociais-p{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    font-size: 1.2rem;
+    font-family: var(--font-fam);
+    font-weight: 600;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons li {
+    background-color: #12D17D;
+    border-radius: 50%;  
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 50px;  
+    height: 50px; 
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+}
+
+
+.social-icons a{
+    color: var(--white-color);
+    transition: color 0.5s ease-out;
+}
+
+.social-icons a:hover{
+    color: var(--black-color);
+}
+
+/* Hero Section */
+
+.hero{
+    background-image: url(../images/bg-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+.hero h1{
+    font-size: 3.0rem;
+    font-weight: 600;
+    color: var(--white-color); 
+    padding-bottom: 30px;   
+}
+
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85); 
+    z-index: 1;  
+}
+.hero .destaque{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.hero .container {
+    position: relative;  
+    z-index: 2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .lead{
+    padding-bottom: 30px;
+    font-family: var(--font-fam);
+    color: var(--white-color);
+}
+.avatar{
+    width: 100%;
+}
+
+.btn-hero{
+    background-color: var(--main-color);
+    padding: 20px 30px 21px;
+    text-decoration: none;
+    font-family: var(--font-fam);
+    color: var(--white-color);
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease-in-out;
+    text-transform: capitalize;
+}
+
+.btn-hero:hover{
+    background-color: var(--second-color);
+}
+
+
+/* about */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    background-color: var(--second-color);
+}
+
+.about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container .texto-about{
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    text-align: center;
+}

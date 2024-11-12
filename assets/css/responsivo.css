@@ -1,0 +1,27 @@
+@media (max-width: 991px) {
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1); 
+    }
+    .navbar {
+        background-color: var(--black-color);
+        margin: 0;
+    }
+
+    .hero {
+        height: auto; /* Ajusta a altura automaticamente */
+        padding-top: 100px; /* Ajusta para compensar a navbar */
+        padding-bottom: 50px; /* Espaço extra na parte inferior */
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--white-color); 
+        padding-bottom: 30px;
+    }
+
+    .avatar {
+        max-height: 300px; /* Limita a altura máxima para evitar corte */
+        width: auto; /* Mantém a proporção da imagem */
+    }
+}
