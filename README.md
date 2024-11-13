@@ -14,7 +14,7 @@ Sou um desenvolvedor Frontend Junior com uma paixão por criar experiências dig
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafvmaia/) 	
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafvmaia)
-[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafaelvmaia/)
+[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/natrilhadodev/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-c9f31d?style=for-the-badge&logo=todoist&logoColor=black)](https://rafaelvalenca.tech)
 [![Na Trilha do Dev](https://img.shields.io/badge/Na_Trilha_do_Dev-6FDA44?style=for-the-badge&logo=todoist&logoColor=white)](https://natrilhadodev.com.br)
 
