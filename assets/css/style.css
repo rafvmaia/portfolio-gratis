@@ -353,3 +353,113 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
+/* --------------- */
+.wrapper{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-header{
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    color: var(--white-color);
+    letter-spacing: 2px;
+    
+}
+.content {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: var(--white-color);
+}
+.content p {
+  line-height: 1.5;
+  color: var(--white-color);
+}
+.main-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 15px;
+}
+.main-content .box{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    height: 350px;
+    overflow: hidden;    
+}
+.main-content .box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.main-content .box:hover:before{
+    top: 0;
+    right: calc(100% - 5px);
+    z-index: 10;
+}
+.main-content .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content .box .img-text {
+	position: absolute;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 100%;
+	transition: all 0.5s ease-in-out;	
+}
+.main-content .box:hover .img-text{
+    top: 0;
+    right: 0;
+}
+
+.btn-geral{
+    background-color: var(--main-color);
+    padding: 10px 20px 11px;
+    text-decoration: none;
+    font-family: var(--font-fam);
+    color: var(--white-color);
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    transition: background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.btn-geral:hover{
+    background-color: var(--second-color);
+}
+
+.portfolio i{
+    padding-right: 10px;
+}

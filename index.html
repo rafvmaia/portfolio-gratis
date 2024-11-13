@@ -43,6 +43,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
     <!-- End CSS -->
 </head>
 <body>
@@ -95,13 +96,13 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6 col-12 text-center text-md-start">
-                <h1 class="display-4">Olá, meu nome é Rafael. <br/>
-                Eu sou <span class="destaque">Frontend Developer</span></h1>
-                <p class="lead">Aqui está uma breve descrição do que fazemos.</p>
-                <a href="#sobre" class="btn btn-success btn-lg">Saiba mais</a>
+                <h1 class="display-4" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">Olá, meu nome é Rafael. <br/>
+                Eu sou <span class="destaque" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">Frontend Developer</span></h1>
+                <p class="lead" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">Aqui está uma breve descrição do que fazemos.</p>
+                <a href="#sobre" class="btn btn-success btn-lg" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">Saiba mais</a>
             </div>
             <div class="col-md-6 col-12 text-center mt-4 mt-md-0">
-                <img src="assets/images/avatar.png" alt="Foto Programador" class="avatar img-fluid">
+                <img src="assets/images/avatar.png" alt="Foto Programador" class="avatar img-fluid" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
             </div>
         </div>
     </div>
@@ -116,10 +117,10 @@
         <div class="icon-ntd">
           <!--<img src="icone" alt="NTD Icon" class="ntd">--><i class="bi bi-star text-white"></i>
         </div>
-        <p class="texto-about">
+        <p class="texto-about" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
             Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
         </p>
-        <a href="#" class="btn-quote mt-3"> <i class="bi bi-file-text"></i> Download CV</a>
+        <a href="#" class="btn-quote mt-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000"> <i class="bi bi-file-text"></i> Download CV</a>
     </div>
 </section>
 
@@ -131,21 +132,21 @@
   <div class="container">
     <h1>Meus Serviços</h1>
     <div class="row">
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
         <i class="bi bi-pencil"></i>
         <h3>UX|UI Design</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quas repellendus consectetur dolore velit earum voluptatibus placeat illum, possimus cupiditate. Dignissimos magnam et id. Repellat, quod! Ipsa perspiciatis dolores ut.
         </p>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
         <i class="bi bi-phone"></i>
         <h3>APP Design</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quas repellendus consectetur dolore velit earum voluptatibus placeat illum, possimus cupiditate. Dignissimos magnam et id. Repellat, quod! Ipsa perspiciatis dolores ut.
         </p>
       </div>
-      <div class="col">
+      <div class="col" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
         <i class="bi bi-globe"></i>
         <h3>SEO Audit</h3>
         <p>
@@ -160,40 +161,73 @@
 
 <!-- Porrfolio -->
   <section class="portfolio">
-    <h1>Meu Portfólio</h1>
+    <h1 data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">Meu Portfólio</h1>
     <div class="container">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/bg-hero.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cliente 1</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn-portfolio mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+      <div class="wrapper">
+        <div class="main-content">
+            <div class="box" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/bg-hero.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cliente 2</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn-portfolio mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+            <div class="box" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>Photoshop</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="assets/images/bg-hero.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Cliente 3</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn-portfolio mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+            <div class="box" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>ui/ux design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="box" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>crafting</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="1000">
+                <img src="assets/images/bg-hero.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2>Marketing</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam assumenda nulla aspernatur enim ut, minima.</p>
+                    <a href="#" class="btn-geral mt-3"> <i class="bi bi-box-arrow-up-right"></i> Ver mais</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
     </div>
   </section>
 <!-- End Portfolio -->
@@ -215,5 +249,13 @@
 <!-- Script JS -->
 <script src="assets/js/script.js"></script>
 <!-- End Script JS -->
+
+ <!-- Animation-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+ <!--End Animation-->
+
 </body>
 </html>
